@@ -16,9 +16,17 @@ const Logo = () => {
   return (
     <div className="hidden md:flex items-center gap-x2">
         <Image
+        className="cursor-pointer dark:hidden"
         width="40"
         height="40"
         src="/logo 1.svg"
+        alt="logo"
+        />
+        <Image
+        className="hidden cursor-pointer dark:block"
+        width="40"
+        height="40"
+        src="/logo-dark.svg"
         alt="logo"
         />
         <p className={cn("font-semibold",font.className)}>Passion</p>
