@@ -1,15 +1,15 @@
 import Image from "next/image";
 
-import { Poppins } from "next/font/google"; 
+// import { Poppins } from "next/font/google"; 
 
 
 
 import { cn } from "@/lib/utils";
 
-const font = Poppins({
-    subsets:['latin'],
-    weight:["400","300"],
-})
+// const font = Poppins({
+//     subsets:['latin'],
+//     weight:["400","300"],
+// })
 import React from 'react'
 
 const Logo = () => {
@@ -29,7 +29,7 @@ const Logo = () => {
         src="/logo-dark.svg"
         alt="logo"
         />
-        <p className={cn("font-semibold",font.className)}>Passion</p>
+        {/* <p className={cn("font-semibold",font.className)}>Passion</p> */}
     </div>
   )
 }
